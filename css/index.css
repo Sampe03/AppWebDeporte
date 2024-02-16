@@ -1,0 +1,33 @@
+li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding: 28px;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+    background: orangered;
+    height: 80px;
+    text-align: center;
+    flex-basis: 100%;
+    display: flex;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
