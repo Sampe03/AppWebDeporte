@@ -1,24 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/servicios.css">
+
+
+    <title>GYM SAMPE</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="opciones.html">Opciones</a></li>
-            <li><a href="planes.html">Planes</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-        <ul>
-            <li><a href="index.html">SPORTS</a></li>
-        </ul>
-    </nav>
-    <p>esto es el servicios</p>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>GYM <span class="txtRojo">SAMPE</span></h1>
+            <nav id="nav">
+                <a href="index.html" onclick="seleccionar()">inicio</a>
+                <a href="nosotros.html" onclick="seleccionar()">Nosotros</a>
+                <a href="servicios.html" onclick="seleccionar()">Servicios</a>
+                <a href="comodidades.html" onclick="seleccionar()">Comodidades</a>
+                <a href="galeria.html" onclick="seleccionar()">Galería</a>
+                <a href="equipo.html" onclick="seleccionar()">Equipo</a>
+                <a href="contacto.html" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/home?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>             
+        </header>
+    </div>
+
+     <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">En Gimnasio Sampe podras encontrar los mejores servicios.</p>
+                    <p>Ya sea que prefieras el yoga, el pilates, el spinbike, el fitness dance o cualquier otra actividad, en el gimnasio Sampe encontrarás la clase que se adapte a tus necesidades y objetivos.</p>
+                </div>
+                <div class="col">
+                    <img src="img/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">Clases </span> de combat</h3>
+                        <p>Esta actividad te permite ejercitar todo tu cuerpo de una manera divertida y dinámica..</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Clases </span> de power fit</h3>
+                        <p>Nuestros instructores te guiarán a través de diferentes ejercicios , ayudándote a mejorar tu fuerza y resistencia muscular.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
+                        <p>Alternamos rounds de golpeo al saco al ritmo de la música con ejercicios funcionales.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span class="txtRojo">Clases </span> Core fit</h3>
+                        <p>El Core Fit es un método altamente efectivo para fortalecer la zona media de tu cuerpo.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">Clases </span> de Cardio</h3>
+                        <p>El entrenamiento de alta intensidad tiene múltiples beneficios para tu condición física.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3><span class="txtRojo">Clases </span> de spinbike</h3>
+                        <p>En esta clase, se lleva a cabo un trabajo cardiovascular de alta intensidad en intervalos de trabajo.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">GYM SAMPE</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/home?lang=es">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
-</html>
