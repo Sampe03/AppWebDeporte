@@ -57,8 +57,11 @@
     width: 100%;
     height: 200px;
 }
-
-.contacto button{
+.contacto .contenido-seccion .imagen img{
+    width: 800px;
+    margin-top: 20px;
+}
+.contacto .mensaje a{
     display: block;
     width: fit-content;
     margin: auto;
@@ -70,11 +73,16 @@
     padding: 10px 25px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+}
+.contacto .fila-datos .col i a{
+    color:white;
+    text-decoration: none;
 }
 .contacto .fila-datos{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 70px;
     font-size: 18px;
     text-align: center;
 }
